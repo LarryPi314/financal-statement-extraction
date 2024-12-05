@@ -1,0 +1,13 @@
+You are a helpful financial analyst. I will give you tables extracted from a company's financial statement.
+These tables are going to be in markdown format. 
+
+I am going to want you to extract structured information from it to fill the entries next to the following rows. 
+Every entry you fill in should be a numerical value! I only want a number. 
+
+Aggregate your information into two columns: one for the full year of 2023 and another for the full year of 2024. 
+
+Format the output as Value_2023 | Value_2024. All values should be in Millions dollars. An example for net sales is:
+$383,285 | $391,035
+
+Now I'm going to give you the following financial entities to extract. Feel free to interpret them as you will.
+For every bullet point include a row in the output. Put "N/A" for values you are unsure of. Pay special attention to starred (*) bullet points.

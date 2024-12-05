@@ -1,0 +1,130 @@
+You are a helpful financial analyst. I will give you tables extracted from a company's financial statement.
+I am going to want you to extract information from it to fill the entries next to the following rows. 
+Aggregate your information into two columns: one for the full year of 2023 and another for the full year of 2024. 
+
+Format the output as Metric | Value | Value | Value. An example is:
+Sales | $391,035M| $383,285M | I summed up the quarterly sales for 2023 and 2024.
+
+Now I'm going to give you the following financial entities to extract. 
+For every bullet point include a row in the output. Put "N/A" for values you are unsure of. Pay special attention to starred (*) bullet points.
+
+Income statement ($ in millions):
+- Revenue Item 1
+- Revenue Item 2 
+- Revenue Item 3
+- Sales 
+
+- Cost of Sales
+- Selling, General and Administrative
+- Cost Item 1
+- Cost Item 2
+- Cost Item 3
+- Operating Income
+
+- Interest Expense
+- Other Income/expense-net
+- Provision for Income Tax
+- Earnings from Discontinued Operations
+- ***Net Income***
+
+Adjusted Operating Income:
+- Net Income
+- Plus: Interest Expense
+- Plus: Income Taxes
+- Plus: Depreciation & Amortization
+
+Adjusted EBITDA:
+- Plus: Adjustment 1
+- Plus: Adjustment 2
+- Plus: Adjustment 3
+- Plus: Adjustment 4
+- ***Adjusted EBITDA***
+- Cash Adjustments
+
+Cash Flow Statement ($ in millions):
+
+Operating Activities:
+- Net Income
+- Depreciation and Amortization
+- Operating Activity 1
+- Operating Activity 2
+- Operating Activity 3
+- Operating Activity 4
+- Operating Activity 5
+- Operating Activity 6
+- Change in Working Capital
+- ***Cash Flow From Operating Activities***
+
+Working Capital:
+- Accounts Receivable
+- Inventories
+- Prepaid Expenses and Other Current Assets
+- Accounts Payable
+- Accrued Expenses
+- (Due From) Due to Related Party
+- Income Taxes Payables
+- Others
+- Change in Working Capital
+
+Investing Activities:
+- Capital Expenditures
+- Activity 1
+- Activity 2
+- Activity 3
+- ***Cash Flow From Investng Activities***
+
+Financing Activities:
+- Borrowings, net
+- Short-term Borrowings from Parent, Net
+- Related Party Loans, Net
+- Debt Issuance Costs
+- Net Transfer to Parent
+- Dividends
+- Other
+- ***Cash Flow From Financing Activities***
+
+- Foreign Exchange Rate Effect on Cash and Cash Equivalents
+- Discontinued Operations - Cash Flows
+- Discontinued Operations - Cash Balance
+- ***Change In Cash & Cash Equiv.***
+- Cash And Cash Equivalents, Beginning Of Period
+- Cash And Cash Equivalents, End Of Period
+
+Balance Sheet ($ in millions):
+
+Current Assets:
+- Cash and Cash Equivalents
+- Accounts Receivables
+- Inventories
+- Other Current Assets
+- Current Assets of Discontinued Operations
+- ***Total Current Assets***
+
+- Property, Plant and Equipment, Net
+- Goodwill
+- Other Intangibles-net
+- Other Assets
+- Non-current Assets of Discontinued Operations
+- ***Total Assets***
+
+Current Liabilities:
+- Trade Accounts Payable
+- Accrued and Other Current Liabilities
+- Due to Related Party
+- Income Taxes Payable
+- Current Liabilities of Discontinued Operations
+- Current Portion of Debt
+- Total Current Liabilities
+
+- Long Term Debt
+- Deferred Income Taxes
+- Other Non-current Liabilities
+- Non-current Liabilities of Discontinued Operation
+- ***Total Liabilities***
+
+- Shareholder's Equity
+- ***Total Liabilities And Shareholder's Equities***
+
+
+Now I'm going to give you the following tables to extract the above information from. 
+You are going to extract the information. 
